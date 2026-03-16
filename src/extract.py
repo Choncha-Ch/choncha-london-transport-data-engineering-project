@@ -46,6 +46,7 @@ def read_schedules_xml():
     return schedules
 
 
+"""
 # Test the extraction layer
 if __name__ == "__main__":
     stations = read_csv_file("stations.csv")
@@ -61,3 +62,4 @@ if __name__ == "__main__":
     print("Zones:", len(zones))
     print("Journeys:", len(journeys))
     print("Schedules:", len(schedules))
+"""
