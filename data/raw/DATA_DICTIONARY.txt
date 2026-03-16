@@ -1,0 +1,18 @@
+London Transport raw data pack
+Files:
+- stations.csv
+- lines.csv
+- journeys.json
+- vehicle_types.csv
+- operators.csv
+- zones.csv
+- disruptions.json
+- fares.csv
+- boroughs.csv
+- schedules.xml
+
+Notes:
+- Each file intentionally includes realistic data-quality issues:
+  missing keys, extra spaces, inconsistent capitalization, invalid numeric values,
+  unmatched foreign keys, duplicates, and mixed date/time formatting.
+- Designed for Day 1 ETL and ELT practice.
